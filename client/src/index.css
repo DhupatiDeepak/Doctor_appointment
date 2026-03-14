@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  /* Deep Medical Blue Palette */
+  --color-primary-light: #60A5FA;
+  --color-primary: #2563EB;
+  --color-primary-dark: #1E3A8A;
+  
+  --color-secondary-light: #5EEAD4;
+  --color-secondary: #0D9488;
+  --color-secondary-dark: #134E4A;
+  
+  --color-accent: #F59E0B;
+  --color-dark: #0F172A;
+  --color-light: #E0F2FE;
+  
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Custom Spacing */
+  --spacing-18: 4.5rem;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-dark bg-light antialiased transition-colors duration-500;
+    background: linear-gradient(to bottom, #0F172A 0%, #0F172A 400px, var(--color-light) 400px, var(--color-light) 100%);
+  }
+}
+
+@layer components {
+  /* Premium Glassmorphism */
+  .glass {
+    @apply bg-white/90 backdrop-blur-xl border border-white shadow-[0_20px_40px_rgba(15,23,42,0.1)];
+  }
+  
+  .glass-dark {
+    @apply bg-dark/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+
+  /* Refined Buttons */
+  .btn {
+    @apply px-8 py-3 rounded-2xl font-black uppercase tracking-widest transition-all duration-500 transform cursor-pointer flex items-center justify-center text-[10px];
+  }
+  
+  .btn:hover {
+    @apply -translate-y-1 shadow-2xl;
+  }
+  
+  .btn:active {
+    @apply scale-95;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white shadow-blue-200/50 hover:bg-dark hover:shadow-dark/20;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white shadow-teal-200/50 hover:bg-dark hover:shadow-dark/20;
+  }
+
+  /* Card Effects */
+  .card-premium {
+    @apply bg-white rounded-[40px] shadow-[0_20px_50px_rgba(15,23,42,0.12)] border border-gray-100 overflow-hidden transition-all duration-700;
+  }
+  
+  .card-premium:hover {
+    @apply -translate-y-4 shadow-[0_40px_100px_rgba(37,99,235,0.2)] border-primary/20;
+  }
+
+  /* Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .reveal {
+    animation: reveal 0.8s cubic-bezier(0.2, 0, 0, 1) forwards;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-light;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 rounded-full hover:bg-primary/20 transition-colors;
+}
