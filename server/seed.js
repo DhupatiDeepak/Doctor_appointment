@@ -179,7 +179,7 @@ const seedDB = async () => {
         
         await User.create({
             name: 'Super Admin',
-            email: 'admin@supra.com',
+            email: 'admin@tanuja.com',
             password: hashedAdminPassword,
             role: 'admin'
         });

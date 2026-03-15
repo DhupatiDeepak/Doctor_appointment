@@ -179,7 +179,7 @@ const Home = () => {
               </div>
             </div>
             <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
-              <span className="text-blue-600 font-black uppercase tracking-[0.4em] text-[8px] md:text-[10px] mb-6 md:mb-8 py-2 px-4 md:px-6 bg-blue-50 rounded-full inline-block">Welcome to Supra Excellence</span>
+              <span className="text-blue-600 font-black uppercase tracking-[0.4em] text-[8px] md:text-[10px] mb-6 md:mb-8 py-2 px-4 md:px-6 bg-blue-50 rounded-full inline-block">Welcome to TANUJA Excellence</span>
               <h2 className="text-4xl md:text-[64px] font-black text-[#0F172A] mb-8 md:mb-10 leading-[1] md:leading-[0.95] tracking-tight">
                 Empowering Your <br className="hidden md:block" />
                 <span className="text-blue-600">Recovery Journey.</span>

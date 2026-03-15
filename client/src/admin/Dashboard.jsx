@@ -128,7 +128,7 @@ const AdminDashboard = () => {
         <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-14 gap-8">
           <div>
              <h2 className="text-4xl font-black text-white capitalize mb-2 tracking-tight">{activeTab}</h2>
-             <p className="text-slate-500 font-bold text-[11px] uppercase tracking-[0.3em]">Hospital Management System Dashboard</p>
+             <p className="text-slate-500 font-bold text-[11px] uppercase tracking-[0.3em]">Nursing Home Management System Dashboard</p>
           </div>
           
           <div className="flex items-center space-x-6">

@@ -18,11 +18,11 @@ const Footer = () => {
           <div className="space-y-10">
             <Link to="/" className="inline-block transform hover:scale-105 transition-transform">
                <span className="text-3xl font-black">
-                 Supra<span className="text-blue-500">Hospital</span>
+                 TANUJA<span className="text-blue-500"> NURSING HOME</span>
                </span>
             </Link>
             <p className="text-white/40 text-[13px] font-bold leading-relaxed tracking-wider">
-              Supra Multi-Speciality Hospital. We are committed to providing world-class healthcare services with compassion and excellence. Our team of specialists uses advanced technology to ensure better outcomes.
+              TANUJA Multi-Speciality NURSING HOME. We are committed to providing world-class healthcare services with compassion and excellence. Our team of specialists uses advanced technology to ensure better outcomes.
             </p>
             <div className="flex space-x-5">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -107,7 +107,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-12 flex flex-col md:flex-row justify-between items-center text-[10px] font-black uppercase tracking-[0.3em] text-white/20">
-          <p>©{new Date().getFullYear()} Supra Multi-Speciality Hospital. All Rights Reserved.</p>
+          <p>©{new Date().getFullYear()} TANUJA Multi-Speciality NURSING HOME. All Rights Reserved.</p>
           <p className="mt-4 md:mt-0">Design & Hosted By: <span className="text-blue-500/60 transition-colors hover:text-blue-500 cursor-help">Mera Mitt Private Limited</span></p>
         </div>
       </div>

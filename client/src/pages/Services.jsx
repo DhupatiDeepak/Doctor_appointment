@@ -61,7 +61,7 @@ const Services = () => {
           </div>
           <h2 className="text-3xl md:text-6xl font-black text-[#0F172A] mb-6 md:mb-8">Healthcare Services</h2>
           <p className="text-gray-500 font-medium max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed text-sm md:text-base">
-            Leading multi-speciality hospital providing complete family healthcare with expert specialists and modern facilities.
+            Leading multi-speciality nursing home providing complete family healthcare with expert specialists and modern facilities.
           </p>
           <div className="w-20 md:w-24 h-1 md:h-1.5 bg-blue-600 mx-auto rounded-full"></div>
         </div>

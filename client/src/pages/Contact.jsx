@@ -57,7 +57,7 @@ const Contact = () => {
 
   const contactCards = [
     { icon: <Phone className="w-8 h-8" />, title: 'Call Us', content: 'Reach out to us and we will find immediate assistance.', details: ['+91 9089224497', '+91 70856 60087'], color: 'blue' },
-    { icon: <Mail className="w-8 h-8" />, title: 'Email Us', content: 'Sent us your queries and we will respond promptly.', details: ['masupra25@gmail.com'], color: 'purple' },
+    { icon: <Mail className="w-8 h-8" />, title: 'Email Us', content: 'Sent us your queries and we will respond promptly.', details: ['contact@tanujanursinghome.com'], color: 'purple' },
     { icon: <MapPin className="w-8 h-8" />, title: 'Visit Us', content: 'Come visit our hospital for in-person consultation.', details: ['Old Motor Stand, Agartala'], color: 'red' },
     { icon: <Clock className="w-8 h-8" />, title: 'Working Hours', content: '...', details: ['Mon - Sat: 9:00 AM - 8:00 PM', 'Sunday: Emergency Only'], color: 'indigo' },
     { icon: <Ambulance className="w-8 h-8" />, title: 'Emergency', content: '24/7 emergency medical care is available.', buttonText: 'Call Emergency', buttonLink: 'tel:919089224497', color: 'teal' },

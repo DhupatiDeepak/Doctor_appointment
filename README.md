@@ -1,6 +1,6 @@
-# Supra Hospital - Doctor Appointment System
+# TANUJA NURSING HOME - Doctor Appointment System
 
-Supra Hospital is a premium, full-stack medical platform designed for seamless doctor appointments and healthcare management. Built with a modern tech stack, it features a responsive, elite-class UI with glassmorphic elements and smooth animations.
+TANUJA NURSING HOME is a premium, full-stack medical platform designed for seamless doctor appointments and healthcare management. Built with a modern tech stack, it features a responsive, elite-class UI with glassmorphic elements and smooth animations.
 
 ## 🚀 Features
 

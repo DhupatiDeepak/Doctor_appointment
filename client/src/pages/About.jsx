@@ -14,7 +14,7 @@ const About = () => {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <h1 className="text-4xl md:text-7xl font-black mb-4 md:mb-6 animate-fade-in">About Us</h1>
-          <p className="text-lg md:text-xl font-medium text-white/80 mb-8 md:mb-10 max-w-2xl mx-auto">Learn more about Supra Multi-Speciality Hospital</p>
+          <p className="text-lg md:text-xl font-medium text-white/80 mb-8 md:mb-10 max-w-2xl mx-auto">Learn more about TANUJA NURSING HOME</p>
           <div className="flex items-center justify-center space-x-2 text-[10px] md:text-sm font-bold uppercase tracking-widest text-white/60">
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
@@ -43,7 +43,7 @@ const About = () => {
             </div>
             <div className="lg:w-1/2 w-full">
               <h2 className="text-3xl md:text-5xl font-black text-[#0F172A] mb-6 md:mb-8 leading-tight">
-                Welcome to Supra Multi-Speciality <span className="text-blue-600">Hospital</span>
+                Welcome to TANUJA <span className="text-blue-600">NURSING HOME</span>
               </h2>
               <p className="text-blue-500 font-black uppercase tracking-[0.2em] text-[10px] md:text-xs mb-6 md:mb-8 block">Your Health Is Our Priority</p>
               
@@ -51,7 +51,7 @@ const About = () => {
               
               <div className="space-y-4 md:space-y-6 text-gray-500 font-medium leading-relaxed mb-10 md:mb-12 text-sm md:text-base">
                 <p>
-                  Supra Multi-Speciality Hospital is a premier healthcare institution dedicated to providing world-class medical services with a commitment to excellence. 
+                  TANUJA NURSING HOME is a premier healthcare institution dedicated to providing world-class medical services with a commitment to excellence. 
                 </p>
                 <p>
                   Established with a vision to deliver comprehensive healthcare solutions, we combine cutting-edge medical technology with the expertise of highly qualified specialists. Our state-of-the-art facility is equipped with modern diagnostic and treatment equipment to ensure accurate diagnoses and effective treatment.
