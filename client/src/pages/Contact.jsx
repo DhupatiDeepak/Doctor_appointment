@@ -56,11 +56,11 @@ const Contact = () => {
   };
 
   const contactCards = [
-    { icon: <Phone className="w-8 h-8" />, title: 'Call Us', content: 'Reach out to us and we will find immediate assistance.', details: ['+91 9089224497', '+91 70856 60087'], color: 'blue' },
+    { icon: <Phone className="w-8 h-8" />, title: 'Call Us', content: 'Reach out to us and we will find immediate assistance.', details: ['+91 94401 95460', '+91 99662 49291', 'Clinic: (08947) 232460'], color: 'blue' },
     { icon: <Mail className="w-8 h-8" />, title: 'Email Us', content: 'Sent us your queries and we will respond promptly.', details: ['contact@tanujanursinghome.com'], color: 'purple' },
-    { icon: <MapPin className="w-8 h-8" />, title: 'Visit Us', content: 'Come visit our hospital for in-person consultation.', details: ['Old Motor Stand, Agartala'], color: 'red' },
+    { icon: <MapPin className="w-8 h-8" />, title: 'Visit Us', content: 'Come visit our hospital for in-person consultation.', details: ['Gorjee Street, ICHAPURAM -532312.'], color: 'red' },
     { icon: <Clock className="w-8 h-8" />, title: 'Working Hours', content: '...', details: ['Mon - Sat: 9:00 AM - 8:00 PM', 'Sunday: Emergency Only'], color: 'indigo' },
-    { icon: <Ambulance className="w-8 h-8" />, title: 'Emergency', content: '24/7 emergency medical care is available.', buttonText: 'Call Emergency', buttonLink: 'tel:919089224497', color: 'teal' },
+    { icon: <Ambulance className="w-8 h-8" />, title: 'Emergency', content: '24/7 emergency medical care is available.', buttonText: 'Call Emergency', buttonLink: 'tel:919440195460', color: 'teal' },
     { icon: <Calendar className="w-8 h-8" />, title: 'Book Appointment', content: 'Schedule your visit with our specialists.', buttonText: 'Book now', buttonLink: '/appointment', color: 'pink' }
   ];
 
@@ -204,10 +204,10 @@ const Contact = () => {
                     <Info className="w-5 h-5 md:w-6 md:h-6 mr-3 text-red-500" /> How to Reach Us
                   </h4>
                   <ul className="space-y-4 md:space-y-6">
-                    <li className="flex items-start">
-                       <MapPin className="w-4 h-4 md:w-5 md:h-5 mr-4 mt-1 text-[#2563EB] flex-shrink-0" />
-                       <p className="text-xs md:text-sm font-bold text-gray-600 leading-relaxed"><span className="text-[#0F172A]">Landmark:</span> Near Old Motor Stand</p>
-                    </li>
+                     <li className="flex items-start">
+                        <MapPin className="w-4 h-4 md:w-5 md:h-5 mr-4 mt-1 text-[#2563EB] flex-shrink-0" />
+                        <p className="text-xs md:text-sm font-bold text-gray-600 leading-relaxed"><span className="text-[#0F172A]">Landmark:</span> Near Gorjee Street</p>
+                     </li>
                     <li className="flex items-start">
                        <Bus className="w-4 h-4 md:w-5 md:h-5 mr-4 mt-1 text-[#2563EB] flex-shrink-0" />
                        <p className="text-xs md:text-sm font-bold text-gray-600 leading-relaxed"><span className="text-[#0F172A]">By Bus:</span> Multiple bus routes available to Old Motor Stand</p>

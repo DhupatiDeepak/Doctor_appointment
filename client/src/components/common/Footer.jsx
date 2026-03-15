@@ -80,7 +80,7 @@ const Footer = () => {
                 </div>
                 <div>
                    <span className="block text-[10px] font-black text-white/30 uppercase tracking-[0.2em] mb-1">Our Location</span>
-                   <p className="text-[13px] font-black text-white/70">Old Motor Stand, Agartala</p>
+                   <p className="text-[13px] font-black text-white/70">Gorjee Street, ICHAPURAM -532312.</p>
                 </div>
               </li>
               <li className="flex group">
@@ -89,7 +89,16 @@ const Footer = () => {
                 </div>
                 <div>
                    <span className="block text-[10px] font-black text-white/30 uppercase tracking-[0.2em] mb-1">Call Us Anywhere</span>
-                   <p className="text-[13px] font-black text-white/70 font-sans">+91 9089224497 <br /> +91 70856 60087</p>
+                   <p className="text-[13px] font-black text-white/70 font-sans">+91 94401 95460 <br /> +91 99662 49291</p>
+                </div>
+              </li>
+              <li className="flex group">
+                <div className="w-11 h-11 bg-purple-500/10 rounded-xl flex items-center justify-center mr-5 text-purple-500 group-hover:bg-purple-500 group-hover:text-white transition-all shadow-lg shadow-purple-500/5">
+                   <Phone className="w-5 h-5" />
+                </div>
+                <div>
+                   <span className="block text-[10px] font-black text-white/30 uppercase tracking-[0.2em] mb-1">Clinic Contact</span>
+                   <p className="text-[13px] font-black text-white/70 font-sans">(08947) 232460</p>
                 </div>
               </li>
               <li className="flex group">
